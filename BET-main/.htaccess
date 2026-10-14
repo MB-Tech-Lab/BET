@@ -1,0 +1,50 @@
+Options -Indexes
+
+<FilesMatch "\.(md|log|csv|bak)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Exclude the SEO auditing system from being routed to the main website
+    RewriteRule ^seo/ - [L]
+    
+    # Route robots.txt dynamically to output the correct absolute sitemap URL
+    RewriteRule ^robots\.txt$ robots.php [L,NC]
+    
+    # If the requested filename is a real file, serve it directly
+    RewriteRule ^(sitemap(?:-.*)?\.xml|sitemap\.xsl|sitemap-explorer\.php)$ sitemap/$1 [L,NC]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+    
+
+    
+    # Location-based dynamic product routing
+    RewriteRule ^locations/([^/]+)/([^/]+)/([^/]+)/products/([^/]+)/product-category/([^/]+)/?$ includes/router.php?continent=$1&country=$2&city=$3&product=$4&category=$5 [L,QSA]
+    RewriteRule ^locations/([^/]+)/([^/]+)/([^/]+)/products/([^/]+)/?$ includes/router.php?continent=$1&country=$2&city=$3&product=$4 [L,QSA]
+
+    # Otherwise, route all requests to router.php relative to the .htaccess location
+    RewriteRule ^(.*)$ includes/router.php [L,QSA]
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/html "access plus 1 day"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|webp|css|js)$">
+        Header set Cache-Control "public, immutable"
+    </FilesMatch>
+    <FilesMatch "\.html$">
+        Header set Cache-Control "public, max-age=86400"
+    </FilesMatch>
+</IfModule>

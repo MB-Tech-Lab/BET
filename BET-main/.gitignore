@@ -1,0 +1,80 @@
+# XAMPP
+xampp/
+
+# Git
+.git
+
+# VS Code
+.vscode/
+.idea/
+.kilo/
+
+# Logs
+*.log
+logs/
+seo/logs/
+uploads/chunks/
+!uploads/chunks/.htaccess
+
+# Cache & Temporary Files
+.cache/
+cache/
+tmp/
+temp/
+scratch/
+scratch-pup/
+archive/
+.phpunit.result.cache
+*.tmp
+*.swp
+test2.php
+test_include.php
+test_nuku.php
+test_timeout.txt
+includes/route_debug.txt
+scripts/full_validator.php
+scripts/test_results.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Dependencies
+/vendor/
+node_modules/
+tools/__pycache__/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build Output
+dist/
+build/
+
+# Backups & Overrides
+*.bak
+*.old
+docker-compose.override.yml
+data/backups/
+data/*.csv
+data/login_attempts.json
+data/.sitemap_meta.json
+data/sitemap_status.json
+
+# Generated SEO and Tool Data
+seo/data/*.json
+tools/*.csv
+tools/*.json
+tools/*.txt
+!tools/bet_url_checker.py
+!tools/build_sitemap.php
+
+cloudflared.deb
+debug_includes.txt
+perf-result.txt
+
+# Security
+admin/config/admins.php
+docs/ADMIN_ACCESS.local.md

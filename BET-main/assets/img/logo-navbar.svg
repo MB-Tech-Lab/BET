@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexagon outline (White) -->
+  <path d="M85 10L150 47 150 123 85 160 20 123 20 47z" fill="none" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="10"/>
+  <!-- Top and bottom accents (Cyan) -->
+  <path d="M42 53 L85 28 L128 53" fill="none" stroke="#18C2D9" stroke-linecap="round" stroke-width="7"/>
+  <path d="M42 117 L85 142 L128 117" fill="none" stroke="#18C2D9" stroke-linecap="round" stroke-width="7"/>
+  <!-- Hexagon B text (White) -->
+  <text fill="#FFFFFF" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="58" font-weight="700" text-anchor="middle" x="85" y="107">B</text>
+  <!-- Burhani Engineering Technology text (White) -->
+  <text fill="#FFFFFF" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="38" font-weight="700" x="190" y="103">Burhani Engineering Technology</text>
+</svg>

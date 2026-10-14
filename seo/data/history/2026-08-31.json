@@ -1,0 +1,3030 @@
+{
+    "/": {
+        "url": "/",
+        "type": "other",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/",
+        "redirect_count": 0,
+        "response_time": 0.023,
+        "issues": [
+            {
+                "type": "missing_h1",
+                "code": "missing_h1",
+                "severity": "high",
+                "message": "Page is missing an H1 tag.",
+                "detected": "0",
+                "expected": "1",
+                "explanation": "H1 tags provide structural context to search engines about the page content.",
+                "recommendation": "Ensure exactly one <h1> tag is present on the page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 1,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Burhani Engineering Technology | Advanced Vacuum Testing & Chambers",
+        "meta_description": "Manufacturer of precision vacuum leak test machines, degassing chambers, and glove boxes. Serving industrial, research, and semiconductor sectors globally.",
+        "canonical": "http://localhost/BET/",
+        "h1": [],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "missing_h1",
+                "code": "missing_h1",
+                "severity": "high",
+                "message": "Page is missing an H1 tag.",
+                "detected": "0",
+                "expected": "1",
+                "explanation": "H1 tags provide structural context to search engines about the page content.",
+                "recommendation": "Ensure exactly one <h1> tag is present on the page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/": {
+        "url": "/products/",
+        "type": "other",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/",
+        "redirect_count": 0,
+        "response_time": 0.028,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Our Products | Burhani Engineering Technology",
+        "meta_description": "Browse our full range of industrial testing equipment including vacuum chambers, leak testers, glove boxes, and customized engineering solutions.",
+        "canonical": "http://localhost/BET/products/",
+        "h1": [
+            "Our Products"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/downloads/": {
+        "url": "/downloads/",
+        "type": "other",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/downloads/",
+        "redirect_count": 0,
+        "response_time": 0.022,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Software Downloads | Burhani Engineering Technology",
+        "meta_description": "Download the latest software for Burhani Engineering Technology equipment including Vacuum Chambers, Leak Testing Systems, Pressure Aging Vessels and related industrial equipment.",
+        "canonical": "http://localhost/BET/downloads/",
+        "h1": [
+            "Software Downloads"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/vacuum-leak-test-machine/": {
+        "url": "/products/vacuum-leak-test-machine/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/",
+        "redirect_count": 0,
+        "response_time": 0.004,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Vacuum Leak Test Machine | Burhani Engineering Technology",
+        "meta_description": "Advanced vacuum and leak testing solutions designed to detect leaks and evaluate the integrity of packaging and components across multiple testing standards.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/",
+        "h1": [
+            "Vacuum Leak Test Machine"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/flat-vacuum-box-weld-testing/": {
+        "url": "/products/flat-vacuum-box-weld-testing/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum box weld testing equipment",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Vacuum Box Weld Testing Equipment | NDT Leak Detection Solutions",
+        "meta_description": "Discover high-performance vacuum box weld testing equipment for accurate leak detection. Ideal for storage tanks, pipelines & pressure vessels.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/",
+        "h1": [
+            "Flat Vacuum Box Weld Testing",
+            "Vacuum Box Weld Testing Equipment"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum box weld testing equipment",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-degassing-chamber/": {
+        "url": "/products/vacuum-degassing-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-degassing-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.004,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "86 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "vacuum degassing chamber | resin & silicone degassing | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page."
+            },
+            {
+                "type": "duplicate_description",
+                "code": "duplicate_description",
+                "severity": "medium",
+                "message": "Duplicate Meta Description",
+                "detected": "heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. durable steel and acrylic construction for industrial use.",
+                "expected": "Unique description",
+                "explanation": "Identical descriptions result in generic snippets in search results.",
+                "recommendation": "Write a unique meta description for each page."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 3,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Vacuum Degassing Chamber | Resin & Silicone Degassing | Burhani Engineering Technology",
+        "meta_description": "Heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. Durable steel and acrylic construction for industrial use.",
+        "canonical": "http://localhost/BET/products/vacuum-degassing-chamber/",
+        "h1": [
+            "Vacuum Degassing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "86 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "vacuum degassing chamber | resin & silicone degassing | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_description",
+                "code": "duplicate_description",
+                "severity": "medium",
+                "message": "Duplicate Meta Description",
+                "detected": "heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. durable steel and acrylic construction for industrial use.",
+                "expected": "Unique description",
+                "explanation": "Identical descriptions result in generic snippets in search results.",
+                "recommendation": "Write a unique meta description for each page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/": {
+        "url": "/products/vacuum-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.01,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:10",
+        "title": "Vacuum Glove Box | Inert Atmosphere Handling | Burhani Engineering Technology",
+        "meta_description": "Burhani Engineering Technology is a leading manufacturer of precision Vacuum Glove Boxes for battery research, chemical handling, and pharmaceuticals. High-purity inert atmosphere systems.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/",
+        "h1": [
+            "Vacuum Glove Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/two-port-glove-box/": {
+        "url": "/products/two-port-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/two-port-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.012,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "98 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "broken_canonical",
+                "code": "broken_canonical",
+                "severity": "critical",
+                "message": "Canonical URL is malformed: http://localhost/BET/products/vacuum-glove-box/product-category/vacuum glove box - metal body/two-port-glove-box/",
+                "detected": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum glove box - metal body/two-port-glove-box/",
+                "expected": "A valid absolute URL",
+                "explanation": "A malformed canonical tag is ignored by search engines, potentially leading to duplicate content issues.",
+                "recommendation": "Ensure the canonical tag contains a valid, absolute URL including the protocol (http/https)."
+            }
+        ],
+        "severity_counts": {
+            "critical": 1,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Stainless Steel Vacuum Glove Box 2 Port | Controlled Environments | Burhani Engineering Technology",
+        "meta_description": "Manufacturer of Stainless Steel Vacuum Glove Box 2 Port providing reliable controlled-environment handling for laboratory and industrial applications.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum glove box - metal body/two-port-glove-box/",
+        "h1": [
+            "Stainless Steel Vacuum Glove Box 2 Port"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "98 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "broken_canonical",
+                "code": "broken_canonical",
+                "severity": "critical",
+                "message": "Canonical URL is malformed: http://localhost/BET/products/vacuum-glove-box/product-category/vacuum glove box - metal body/two-port-glove-box/",
+                "detected": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum glove box - metal body/two-port-glove-box/",
+                "expected": "A valid absolute URL",
+                "explanation": "A malformed canonical tag is ignored by search engines, potentially leading to duplicate content issues.",
+                "recommendation": "Ensure the canonical tag contains a valid, absolute URL including the protocol (http/https).",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/three-port-glove-box/": {
+        "url": "/products/three-port-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/three-port-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.025,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Stainless Steel Vacuum Glove Box 3 Port Manufacturer India",
+        "meta_description": "Burhani Engineering Technology manufactures customizable Stainless Steel Vacuum Glove Box 3 Port systems in Chennai for laboratory, research and industrial applications.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/three-port-glove-box.php",
+        "h1": [
+            "Stainless Steel Vacuum Glove Box 3 Port"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/four-port-glove-box/": {
+        "url": "/products/four-port-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/four-port-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.01,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Stainless Steel Vacuum Glove Box 4 Port Manufacturer India",
+        "meta_description": "Burhani Engineering Technology manufactures customizable Stainless Steel Vacuum Glove Box 4 Port systems in Chennai for laboratory, research and industrial applications.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box.php",
+        "h1": [
+            "Stainless Steel Vacuum Glove Box 4 Port"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/four-port-glove-box-modular/": {
+        "url": "/products/four-port-glove-box-modular/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/four-port-glove-box-modular/",
+        "redirect_count": 0,
+        "response_time": 0.01,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "80 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Stainless Steel Vacuum Glove Box 4 Port Modular | Burhani Engineering Technology",
+        "meta_description": "Manufacturer of Stainless Steel Vacuum Glove Box 4 Port Modular providing flexible controlled-atmosphere handling for laboratory and industrial applications.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box-modular.php",
+        "h1": [
+            "Stainless Steel Vacuum Glove Box 4 Port Modular"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "80 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/four-port-glove-box-two-sided/": {
+        "url": "/products/four-port-glove-box-two-sided/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/four-port-glove-box-two-sided/",
+        "redirect_count": 0,
+        "response_time": 0.007,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "95 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Stainless Steel Vacuum Glove Box 4 Port Two Sided Manufacturer | Burhani Engineering Technology",
+        "meta_description": "Burhani Engineering Technology manufactures customizable 4 Port Two-Sided Stainless Steel Vacuum Glove Boxes in Chennai for laboratory and industrial applications.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box-two-sided.php",
+        "h1": [
+            "Stainless Steel Vacuum Glove Box 4 Port Two Sided"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "95 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/six-port-glove-box-two-sided/": {
+        "url": "/products/six-port-glove-box-two-sided/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/six-port-glove-box-two-sided/",
+        "redirect_count": 0,
+        "response_time": 0.012,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "90 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Six Port Vacuum Glove Box Two Sided Manufacturer in India | Burhani Engineering Technology",
+        "meta_description": "Burhani Engineering Technology manufactures customizable two-sided Six Port Vacuum Glove Boxes with three glove ports on each side in Chennai, India.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/six-port-glove-box-two-sided.php",
+        "h1": [
+            "Vacuum Six Port Glove Box Two Sided"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "90 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/eight-port-glove-box-two-sided/": {
+        "url": "/products/eight-port-glove-box-two-sided/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/eight-port-glove-box-two-sided/",
+        "redirect_count": 0,
+        "response_time": 0.007,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Eight Port Glove Box Two Sided Manufacturer in India | Burhani Engineering Technology",
+        "meta_description": "Burhani Engineering Technology manufactures customizable two-sided Eight Port Glove Boxes with four glove ports on each side in Chennai, India.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/eight-port-glove-box-two-sided.php",
+        "h1": [
+            "Eight Port Glove Box Two Sided"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-chamber-sampler-vc20/": {
+        "url": "/products/vacuum-chamber-sampler-vc20/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-chamber-sampler-vc20/",
+        "redirect_count": 0,
+        "response_time": 0.01,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:11",
+        "title": "Vacuum Chamber Sampler VC20 \u2013 Portable Air Sampling Chamber | BET",
+        "meta_description": "The Vacuum Chamber Sampler VC20 is a compact portable air sampling chamber designed for contamination-free gas and air sample collection in laboratory and field applications.",
+        "canonical": "http://localhost/BET/products/vacuum-chamber-sampler-vc20/",
+        "h1": [
+            "Vacuum Chamber Sampler VC20 \u2013 Portable Air Sampling Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/transparent-vacuum-and-pressure-vessels/": {
+        "url": "/products/transparent-vacuum-and-pressure-vessels/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/transparent-vacuum-and-pressure-vessels/",
+        "redirect_count": 0,
+        "response_time": 0.005,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "Transparent Vacuum and Pressure Vessel | Leak Testing & Packaging Integrity Equipment",
+        "meta_description": "High-performance transparent vacuum and pressure vessel for pouch leak testing and packaging integrity analysis. Ideal for beverage and industrial applications.",
+        "canonical": "http://localhost/BET/products/transparent-vacuum-and-pressure-vessels/",
+        "h1": [
+            "Transparent Vacuum and Pressure Vessel"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/ats-pressure-aging-vessel/": {
+        "url": "/products/ats-pressure-aging-vessel/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/",
+        "redirect_count": 0,
+        "response_time": 0.018,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "ATS Pressure Aging Vessel Asphalt Binding Testing Equipment | PAV4",
+        "meta_description": "Manufacturer of ATS Pressure Aging Vessel (PAV4). High-precision Asphalt Binding Testing Equipment to simulate long-term oxidative aging. Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/",
+        "h1": [
+            "ATS Pressure Aging Vessel Asphalt Binding Testing"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/pcr-chambers/": {
+        "url": "/products/pcr-chambers/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/pcr-chambers/",
+        "redirect_count": 0,
+        "response_time": 0.024,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "75 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "PCR Chambers | Laboratory PCR Workstations | Burhani Engineering Technology",
+        "meta_description": "BET PCR Chambers provide a sterile, controlled environment for contamination-free PCR preparation and DNA/RNA handling. Featuring HEPA filtration and UV sterilization.",
+        "canonical": "http://localhost/BET/products/pcr-chambers/",
+        "h1": [
+            "PCR Chambers"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "75 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/sealing-testing-chamber/": {
+        "url": "/products/sealing-testing-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/sealing-testing-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.025,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "Sealing Testing Chamber | Vacuum Leak Testing | Burhani Engineering Technology",
+        "meta_description": "High-performance sealing testing chamber designed for accurate vacuum leak detection, seal integrity verification, and quality control in pharmaceutical, food, medical, and industrial packaging applications.",
+        "canonical": "http://localhost/BET/products/sealing-testing-chamber/",
+        "h1": [
+            "Sealing Testing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-leak-test-machine/product-category/internal-pressurization-bubble-testing-system-for-astm-f2096/": {
+        "url": "/products/vacuum-leak-test-machine/product-category/internal-pressurization-bubble-testing-system-for-astm-f2096/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/internal-pressurization-bubble-testing-system-for-astm-f2096/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "ASTM F2096 Leak Tester \u2014 Internal Pressurization Bubble Leak Test | Burhani",
+        "meta_description": "Reliable internal pressurization bubble testing system for detecting gross leaks in packaging according to ASTM F2096. Ideal for flexible packaging and medical pouches.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/internal-pressurization-bubble-testing-system-for-astm-f2096/",
+        "h1": [
+            "ASTM F2096 \u2014 Internal Pressurization Bubble Leak Test"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-flexible-packaging-astm-d3078/": {
+        "url": "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-flexible-packaging-astm-d3078/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-flexible-packaging-astm-d3078/",
+        "redirect_count": 0,
+        "response_time": 0.007,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "103 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "ASTM D3078 Vacuum Leak Tester | Flexible Packaging Leak Test Apparatus | Burhani Engineering Technology",
+        "meta_description": "ASTM D3078 Vacuum Leak Test Apparatus for bubble emission testing of flexible packaging, pouches and sealed packs. Professional package integrity testing equipment manufactured by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-flexible-packaging-astm-d3078/",
+        "h1": [
+            "ASTM D3078 Vacuum Leak Testing Method for Flexible Packaging"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "103 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-bottles-astm-d4991/": {
+        "url": "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-bottles-astm-d4991/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-bottles-astm-d4991/",
+        "redirect_count": 0,
+        "response_time": 0.006,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "91 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "ASTM D4991 Vacuum Leak Test for Rigid Bottles & Containers | Burhani Engineering Technology",
+        "meta_description": "Explore ASTM D4991 vacuum leak testing solutions for rigid bottles and containers. Burhani Engineering Technology provides controlled vacuum leak testing equipment for packaging integrity and quality inspection.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-bottles-astm-d4991/",
+        "h1": [
+            "ASTM D4991 Vacuum Leak Test for Rigid Bottles & Containers"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "91 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-containers-astm-d5094/": {
+        "url": "/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-containers-astm-d5094/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-containers-astm-d5094/",
+        "redirect_count": 0,
+        "response_time": 0.023,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "92 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:12",
+        "title": "ASTM D5094 Vacuum Leak Test for Rigid Containers & Closures | Burhani Engineering Technology",
+        "meta_description": "Explore ASTM D5094 vacuum leak testing solutions for rigid containers and closure systems from Burhani Engineering Technology. Designed for package integrity and leakage detection under controlled vacuum conditions.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/vacuum-leak-test-for-rigid-containers-astm-d5094/",
+        "h1": [
+            "ASTM D5094 Vacuum Leak Test for Rigid Containers & Closures"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "92 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-leak-test-machine/product-category/high-altitude-vacuum-packaging-test-astm-d6653/": {
+        "url": "/products/vacuum-leak-test-machine/product-category/high-altitude-vacuum-packaging-test-astm-d6653/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/high-altitude-vacuum-packaging-test-astm-d6653/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "ASTM D6653 High-Altitude Packaging Test | Vacuum Leak Test Machine",
+        "meta_description": "ASTM D6653 high-altitude and vacuum packaging testing equipment for evaluating package integrity, deformation, seals and closures under reduced-pressure conditions.",
+        "canonical": "http://localhost/BET/products/vacuum-leak-test-machine/product-category/high-altitude-vacuum-packaging-test-astm-d6653/",
+        "h1": [
+            "High-Altitude / Vacuum Packaging Test for ASTM D6653"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/flat-bottom-butt-weld/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/flat-bottom-butt-weld/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/flat-bottom-butt-weld/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "94 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum box weld testing equipment",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Vacuum Box Weld Testing Equipment Manufacturer | NDT Leak Testing for Tanks, Pipelines & Welds",
+        "meta_description": "Leading manufacturer of vacuum box weld testing equipment for flat, curved & cylindrical weld inspection. API standard NDT leak testing.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/flat-bottom-butt-weld/",
+        "h1": [
+            "Vacuum Box Weld Testing Equipment"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "94 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum box weld testing equipment",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/inside-corner-vacuum-box/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/inside-corner-vacuum-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/inside-corner-vacuum-box/",
+        "redirect_count": 0,
+        "response_time": 0.018,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Inside Corner Vacuum Box Bubble Leak Testing | NDT Weld Leak Testing Equipment",
+        "meta_description": "Inside corner vacuum box for bubble leak testing of welds on tank bottoms and corner joints. API 650/653 compliant NDT equipment for accurate weld inspection.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/inside-corner-vacuum-box/",
+        "h1": [
+            "Inside Corner Vacuum Box Bubble Leak Testing"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/flexible-flat-bottom/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/flexible-flat-bottom/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/flexible-flat-bottom/",
+        "redirect_count": 0,
+        "response_time": 0.007,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Flexible Flat Bottom Vacuum Box Weld Testing Equipment | API 650 Tank Weld Inspection",
+        "meta_description": "Flexible flat bottom vacuum box for weld leak testing on tank bottom plates. API 650 compliant NDT equipment for accurate bubble leak detection.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/flexible-flat-bottom/",
+        "h1": [
+            "Flexible Flat Bottom Vacuum Box for Weld Leak Testing"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "85 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/transparent-flat-bottom-butt/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/transparent-flat-bottom-butt/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/transparent-flat-bottom-butt/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "81 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Complete Transparent Flat Bottom Weld Test Box | Flat Weld Leak Testing Equipment",
+        "meta_description": "Complete transparent flat bottom weld test box for accurate butt weld leak testing on flat surfaces. Ideal for NDT bubble leak inspection of weld seams.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/transparent-flat-bottom-butt/",
+        "h1": [
+            "Complete Transparent Flat Bottom Weld Test Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "81 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/angular-curved-surface/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/angular-curved-surface/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/angular-curved-surface/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Flexible Transparent Angular Vacuum Box for Weld Leak Testing | NDT Equipment",
+        "meta_description": "Flexible transparent angular vacuum box for accurate weld leak testing on curved and cylindrical surfaces. Ideal for pipelines, tanks & industrial NDT applications.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/angular-curved-surface/",
+        "h1": [
+            "Flexible Transparent Angular Weld Test Vacuum Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/transparent-overlap-weld/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/transparent-overlap-weld/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/transparent-overlap-weld/",
+        "redirect_count": 0,
+        "response_time": 0.005,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "96 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Complete Transparent Flat Bottom Weld Test Box for Overlap Welds | Vacuum Weld Testing Equipment",
+        "meta_description": "Complete transparent flat bottom weld test box for bubble leak testing of overlap welds on flat surfaces. Ideal for NDT inspection of lap weld joints.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/transparent-overlap-weld/",
+        "h1": [
+            "Complete Transparent Flat Bottom Weld Test Box for Overlap Welds"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "96 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/sea-chest-angular/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/sea-chest-angular/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/sea-chest-angular/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "75 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:13",
+        "title": "Sea Chest Angular Vacuum Weld Test Box | Marine Weld Leak Testing Equipment",
+        "meta_description": "Sea chest angular vacuum weld test box for marine weld leak testing. Ideal for NDT inspection of sea chest and ship welds using advanced vacuum sealing technology.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/sea-chest-angular/",
+        "h1": [
+            "Sea Chest Angular Vacuum Weld Test Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "75 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/outside-corner-vacuum/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/outside-corner-vacuum/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/outside-corner-vacuum/",
+        "redirect_count": 0,
+        "response_time": 0.016,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Outside Corner Vacuum Weld Test Box | Vacuum Box for Corner Weld Leak Testing",
+        "meta_description": "Outside corner vacuum weld test box for accurate bubble leak testing of corner welds. Ideal for NDT inspection of 90-degree outside corner joints in tanks, structures, and piping.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/outside-corner-vacuum/",
+        "h1": [
+            "Outside Corner Vacuum Weld Test Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/inner-edge-3x90/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/inner-edge-3x90/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/inner-edge-3x90/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "98 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Complete Transparent 3\u00d790 Degree Inner Edge Weld Test Vacuum Box | Inner Corner Weld Leak Testing",
+        "meta_description": "Transparent 3\u00d790 degree inner edge vacuum weld test box for precise weld leak detection on corner joints. Ideal for NDT inspection of inner edge welds using bubble leak testing.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/inner-edge-3x90/",
+        "h1": [
+            "Complete Transparent 3\u00d790 Degree Inner Edge Vacuum Weld Test Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "98 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/flat-vacuum-box-weld-testing/product-category/outer-edge-3x90/": {
+        "url": "/products/flat-vacuum-box-weld-testing/product-category/outer-edge-3x90/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/outer-edge-3x90/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Outside Edge Vacuum Weld Test Box | Vacuum Weld Testing for Outside Edge Welds",
+        "meta_description": "Outside edge vacuum weld test box for accurate weld leak testing and bubble leak detection. Ideal for outside edge weld inspection using advanced vacuum sealing technology.",
+        "canonical": "http://localhost/BET/products/flat-vacuum-box-weld-testing/product-category/outer-edge-3x90/",
+        "h1": [
+            "Outside Edge Vacuum Weld Test Weld Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-degassing-chamber/product-category/hvdc/": {
+        "url": "/products/vacuum-degassing-chamber/product-category/hvdc/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/hvdc/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "106 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Stainless Steel Vacuum Degassing Chamber | Industrial Degassing Solutions | Burhani Engineering Technology",
+        "meta_description": "Advanced heated vacuum degassing chambers with temperature control for removing gases from resins, silicones, and polymers. Heavy-duty stainless steel construction.",
+        "canonical": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/hvdc/",
+        "h1": [
+            "Stainless Steel Vacuum Degassing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "106 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-degassing-chamber/product-category/avdccube/": {
+        "url": "/products/vacuum-degassing-chamber/product-category/avdccube/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/avdccube/",
+        "redirect_count": 0,
+        "response_time": 0.013,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "104 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Acrylic Vacuum Degassing Chamber Cube | Transparent Degassing Solutions | Burhani Engineering Technology",
+        "meta_description": "Clear acrylic cube vacuum degassing chambers with visual monitoring capability. Rugged construction, precise temperature control, and efficient space utilization for research and production.",
+        "canonical": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/avdccube/",
+        "h1": [
+            "Acrylic Vacuum Degassing Chamber Cube"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "104 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-degassing-chamber/product-category/avdccylinder/": {
+        "url": "/products/vacuum-degassing-chamber/product-category/avdccylinder/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/avdccylinder/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "120 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Acrylic Vacuum Degassing Chamber Cylinder | Transparent Cylindrical Degassing Solutions | Burhani Engineering Technology",
+        "meta_description": "Clear acrylic cylindrical vacuum degassing chambers with visual monitoring. State-of-the-art design, cost-effective, and versatile for industrial and research applications.",
+        "canonical": "http://localhost/BET/products/vacuum-degassing-chamber/product-category/avdccylinder/",
+        "h1": [
+            "Acrylic Vacuum Degassing Chamber Cylinder"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "120 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/acrylic-vacuum-glove-box/": {
+        "url": "/products/vacuum-glove-box/product-category/acrylic-vacuum-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/acrylic-vacuum-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.004,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "93 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Acrylic Vacuum Glove Box | Precision Controlled Environments | Burhani Engineering Technology",
+        "meta_description": "Manufacturer of Acrylic Vacuum Glove Boxes providing controlled environments for sensitive operations, scientific research, and advanced manufacturing. Custom configurations available.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/acrylic-vacuum-glove-box/",
+        "h1": [
+            "Acrylic Vacuum Glove Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "93 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/vacuum-gbmb/": {
+        "url": "/products/vacuum-glove-box/product-category/vacuum-gbmb/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/",
+        "redirect_count": 0,
+        "response_time": 0.026,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "96 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:14",
+        "title": "Vacuum Glove Box \u2013 Metal Body | High-Purity Inert Gas Systems | Burhani Engineering Technology",
+        "meta_description": "Manufacturer of stainless steel Vacuum Glove Boxes with advanced sealing technology and gas purification systems. Remove O2, H2O, and N2 to ppb levels.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/vacuum-gbmb/",
+        "h1": [
+            "Vacuum Glove Box \u2013 Metal Body"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "96 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/argon-gas-glove-box/": {
+        "url": "/products/vacuum-glove-box/product-category/argon-gas-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/argon-gas-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Argon Gas Glove Box Manufacturer | Inert Atmosphere Systems | BET",
+        "meta_description": "Looking for a reliable Argon Gas Glove Box Manufacturer? We supply high-purity hermetically sealed inert atmosphere glove boxes with gas purification for laboratory research.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/argon-gas-glove-box/",
+        "h1": [
+            "Argon Gas Glove Box Manufacturer"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/vacuum-glove-box/product-category/compact-university-glove-box/": {
+        "url": "/products/vacuum-glove-box/product-category/compact-university-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/compact-university-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "87 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Compact University Glove Box Manufacturer | Laboratory Inert Atmosphere Glove Box | BET",
+        "meta_description": "Burhani Engineering Technology manufactures Compact University Glove Boxes with side transfer chambers, airtight construction, HEPA filtration, integrated purging system and multiple size options including BET810-SG10, SG20, SG30 and SG40.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/compact-university-glove-box/",
+        "h1": [
+            "Compact University Glove Box Manufacturer"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "87 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/globe-box-dome-360-glove-chamber/": {
+        "url": "/products/vacuum-glove-box/product-category/globe-box-dome-360-glove-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/globe-box-dome-360-glove-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Globe Box Dome 360\u00b0 Glove Chamber Manufacturer | Transparent PMMA Glove Box | BET",
+        "meta_description": "Looking for a reliable 360 Degree Glove Box Manufacturer? We design and manufacture high-performance Globe Box Dome 360\u00b0 Glove Chambers from transparent PMMA acrylic for academic R&D.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/globe-box-dome-360-glove-chamber/",
+        "h1": [
+            "Globe Box Dome 360\u00b0 Glove Chamber Manufacturer"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/negative-pressure-glove-box/": {
+        "url": "/products/vacuum-glove-box/product-category/negative-pressure-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/negative-pressure-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.018,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "120 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Negative Pressure Glove Box Manufacturer | HEPA Filtered Laboratory Containment Systems | Burhani Engineering Technology",
+        "meta_description": "Burhani Engineering Technology manufactures high-performance Negative Pressure Glove Boxes with HEPA H14 filtration, BSL-3 ready containment chambers, and closed-loop setups.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/negative-pressure-glove-box/",
+        "h1": [
+            "Negative Pressure Glove Box Manufacturer"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "120 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/product-category/nitrogen-purged-stainless-steel-glove-box/": {
+        "url": "/products/vacuum-glove-box/product-category/nitrogen-purged-stainless-steel-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/product-category/nitrogen-purged-stainless-steel-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "129 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Nitrogen Purged Stainless Steel Glove Box Manufacturer | SS304 Controlled Atmosphere Workstation | Burhani Engineering Technology",
+        "meta_description": "Manufacturer of Nitrogen Purged SS304 Glove Boxes. Vacuum-compatible, positive pressure controlled atmosphere workstations for pharma, research, and semiconductor labs.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/product-category/nitrogen-purged-stainless-steel-glove-box/",
+        "h1": [
+            "Nitrogen Purged Stainless Steel Glove Box Manufacturer"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "129 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cube/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cube/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cube/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Acrylic Vacuum Chamber Cube | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Acrylic Vacuum Chamber Cube. Engineered for precision and reliability in scientific exploration and experimentation.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cube/",
+        "h1": [
+            "Acrylic Vacuum Chamber Cube"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cylinder/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cylinder/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cylinder/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:15",
+        "title": "Acrylic Vacuum Chamber Cylinder | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Acrylic Vacuum Chamber Cylinder. Engineered for precision and reliability in scientific exploration and experimentation.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/acrylic-vacuum-chamber-cylinder/",
+        "h1": [
+            "Acrylic Vacuum Chamber Cylinder"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/ats-pressure-aging-vessel/product-category/stainless-steel-cube-vacuum-chamber/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/stainless-steel-cube-vacuum-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/stainless-steel-cube-vacuum-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:16",
+        "title": "Stainless Steel Cube Vacuum Chamber | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Stainless Steel Cube Vacuum Chamber. Built with unparalleled strength and adaptability for scientific research.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/stainless-steel-cube-vacuum-chamber/",
+        "h1": [
+            "Stainless Steel Cube Vacuum Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/ats-pressure-aging-vessel/product-category/stainless-steel-cylinder-vacuum-chamber/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/stainless-steel-cylinder-vacuum-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/stainless-steel-cylinder-vacuum-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.006,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "72 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:16",
+        "title": "Stainless Steel Cylinder Vacuum Chamber | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Stainless Steel Cylinder Vacuum Chamber. The best solution for high volume testing at a lower cost.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/stainless-steel-cylinder-vacuum-chamber/",
+        "h1": [
+            "Stainless Steel Cylinder Vacuum Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "72 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/ats-pressure-aging-vessel/product-category/horizontal-industrial-vacuum-chamber/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/horizontal-industrial-vacuum-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/horizontal-industrial-vacuum-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "73 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "stainless steel vacuum degassing chamber | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 2,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:16",
+        "title": "Stainless Steel Vacuum Degassing Chamber | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Stainless Steel Vacuum Degassing Chamber. Engineered for unparalleled precision in industrial manufacturing.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/horizontal-industrial-vacuum-chamber/",
+        "h1": [
+            "Stainless Steel Vacuum Degassing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "73 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "stainless steel vacuum degassing chamber | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/ats-pressure-aging-vessel/product-category/vacuum-degassing-chamber/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/vacuum-degassing-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/vacuum-degassing-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "86 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "vacuum degassing chamber | resin & silicone degassing | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page."
+            },
+            {
+                "type": "duplicate_description",
+                "code": "duplicate_description",
+                "severity": "medium",
+                "message": "Duplicate Meta Description",
+                "detected": "heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. durable steel and acrylic construction for industrial use.",
+                "expected": "Unique description",
+                "explanation": "Identical descriptions result in generic snippets in search results.",
+                "recommendation": "Write a unique meta description for each page."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 3,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:16",
+        "title": "Vacuum Degassing Chamber | Resin & Silicone Degassing | Burhani Engineering Technology",
+        "meta_description": "Heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. Durable steel and acrylic construction for industrial use.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/vacuum-degassing-chamber/",
+        "h1": [
+            "Vacuum Degassing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "86 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "vacuum degassing chamber | resin & silicone degassing | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_description",
+                "code": "duplicate_description",
+                "severity": "medium",
+                "message": "Duplicate Meta Description",
+                "detected": "heavy-duty vacuum degassing chambers for removing air bubbles from resins, epoxies, and silicones. durable steel and acrylic construction for industrial use.",
+                "expected": "Unique description",
+                "explanation": "Identical descriptions result in generic snippets in search results.",
+                "recommendation": "Write a unique meta description for each page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/ats-pressure-aging-vessel/product-category/heated-vacuum-chamber-oven/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/heated-vacuum-chamber-oven/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/heated-vacuum-chamber-oven/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:36",
+        "title": "Heated Vacuum Chamber / Oven | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Heated Vacuum Chamber and Oven. Engineered for precision and reliability in removing entrapped gases and curing materials.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/heated-vacuum-chamber-oven/",
+        "h1": [
+            "Heated Vacuum Chamber / Oven"
+        ],
+        "noindex": false,
+        "compared_issues": []
+    },
+    "/products/ats-pressure-aging-vessel/product-category/heated-vacuum-degassing-chamber/": {
+        "url": "/products/ats-pressure-aging-vessel/product-category/heated-vacuum-degassing-chamber/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/heated-vacuum-degassing-chamber/",
+        "redirect_count": 0,
+        "response_time": 0.009,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "73 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "stainless steel vacuum degassing chamber | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page."
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 2,
+            "low": 1
+        },
+        "audited_at": "2026-08-31 12:10:36",
+        "title": "Stainless Steel Vacuum Degassing Chamber | Burhani Engineering Technology",
+        "meta_description": "Discover our premium Stainless Steel Vacuum Degassing Chamber. Engineered for removing unwanted gases and enhancing material properties.",
+        "canonical": "http://localhost/BET/products/ats-pressure-aging-vessel/product-category/heated-vacuum-degassing-chamber/",
+        "h1": [
+            "Stainless Steel Vacuum Degassing Chamber"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "73 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_title",
+                "code": "duplicate_title",
+                "severity": "medium",
+                "message": "Duplicate Title Tag",
+                "detected": "stainless steel vacuum degassing chamber | burhani engineering technology",
+                "expected": "Unique title across the site",
+                "explanation": "Identical titles confuse search engines and users, hurting ranking ability for specific queries.",
+                "recommendation": "Write a unique title tag that accurately describes this specific page.",
+                "status": "NEW"
+            },
+            {
+                "type": "duplicate_h1",
+                "code": "duplicate_h1",
+                "severity": "low",
+                "message": "Duplicate H1 Tag",
+                "detected": "stainless steel vacuum degassing chamber",
+                "expected": "Unique H1",
+                "explanation": "H1 tags indicate the primary topic of the page and should ideally be unique across the site.",
+                "recommendation": "Update the H1 tag to better reflect the specific content of this page.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/pcr-chambers/product-category/compact-pcr-chambers/": {
+        "url": "/products/pcr-chambers/product-category/compact-pcr-chambers/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/pcr-chambers/product-category/compact-pcr-chambers/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "102 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:36",
+        "title": "Compact PCR Workstation Manufacturer India | HEPA Filter PCR Workstation | DNA RNA Preparation Chamber",
+        "meta_description": "BET Compact PCR Workstations. ISO-compliant PCR preparation chamber with HEPA filtration and UV sterilization for contamination-free DNA/RNA handling.",
+        "canonical": "http://localhost/BET/products/pcr-chambers/product-category/compact-pcr-chambers/",
+        "h1": [
+            "Compact PCR Chambers"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "102 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/pcr-chambers/product-category/pcr-chambers-big/": {
+        "url": "/products/pcr-chambers/product-category/pcr-chambers-big/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/pcr-chambers/product-category/pcr-chambers-big/",
+        "redirect_count": 0,
+        "response_time": 0.016,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "74 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "PCR Chambers Big | Contamination-Controlled Workstation | DNA RNA Handling",
+        "meta_description": "BET PCR Chambers Big. Large scale contamination-controlled workstation with HEPA filtration and UV sterilization for PCR preparation and DNA/RNA handling.",
+        "canonical": "http://localhost/BET/products/pcr-chambers/product-category/pcr-chambers-big/",
+        "h1": [
+            "PCR Chambers Big"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "74 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/battery-research-glove-box/": {
+        "url": "/products/vacuum-glove-box/battery-research-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/battery-research-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.01,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "87 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Battery Research Glove Box | Lithium & Solid-State R&D | Burhani Engineering Technology",
+        "meta_description": "Specialized Battery Research Glove Boxes for Lithium-ion, coin cell, pouch cell, and solid-state battery R&D. High-purity Argon atmosphere systems with sub-1 ppm O2 & H2O.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/battery-research-glove-box/",
+        "h1": [
+            "Battery Research Glove Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "87 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/perovskite-solar-cell-glove-box/": {
+        "url": "/products/vacuum-glove-box/perovskite-solar-cell-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/perovskite-solar-cell-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.007,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "90 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Perovskite Solar Cell Glove Box | Thin-Film Photovoltaics | Burhani Engineering Technology",
+        "meta_description": "Specialized Perovskite Solar Cell Glove Boxes with integrated spin coaters, thermal evaporators, and ultra-dry Nitrogen atmospheres. Optimize photovoltaic research.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/perovskite-solar-cell-glove-box/",
+        "h1": [
+            "Perovskite Solar Cell Glove Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "90 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/pharmaceutical-glove-box/": {
+        "url": "/products/vacuum-glove-box/pharmaceutical-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/pharmaceutical-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.012,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "95 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Pharmaceutical Glove Box Isolator | HPAPI & Aseptic Processing | Burhani Engineering Technology",
+        "meta_description": "Premium Pharmaceutical Glove Box Isolators for aseptic processing, sterility testing, API synthesis, and HPAPI containment. Full GMP compliance engineering.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/pharmaceutical-glove-box/",
+        "h1": [
+            "Pharmaceutical Glove Box Isolator"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "95 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/products/vacuum-glove-box/semiconductor-glove-box/": {
+        "url": "/products/vacuum-glove-box/semiconductor-glove-box/",
+        "type": "product",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/products/vacuum-glove-box/semiconductor-glove-box/",
+        "redirect_count": 0,
+        "response_time": 0.018,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Semiconductor Glove Box | Wafer & OLED Processing | Burhani Engineering Technology",
+        "meta_description": "Industrial Semiconductor Glove Boxes for cleanroom wafer handling, OLED packaging, MEMS assembly, and thin film deposition. High-efficiency HEPA filtration systems.",
+        "canonical": "http://localhost/BET/products/vacuum-glove-box/semiconductor-glove-box/",
+        "h1": [
+            "Semiconductor Glove Box"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/algeria/algiers/": {
+        "url": "/locations/africa/algeria/algiers/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/algeria/algiers/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "80 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Algiers, Algeria",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Algiers by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/algeria/algiers/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Algiers, Algeria"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "80 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/algeria/oran/": {
+        "url": "/locations/africa/algeria/oran/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/algeria/oran/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Oran, Algeria",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Oran by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/algeria/oran/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Oran, Algeria"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "77 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/angola/luanda/": {
+        "url": "/locations/africa/angola/luanda/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/angola/luanda/",
+        "redirect_count": 0,
+        "response_time": 0.014,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Luanda, Angola",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Luanda by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/angola/luanda/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Luanda, Angola"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/benin/cotonou/": {
+        "url": "/locations/africa/benin/cotonou/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/benin/cotonou/",
+        "redirect_count": 0,
+        "response_time": 0.011,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:37",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Cotonou, Benin",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Cotonou by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/benin/cotonou/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Cotonou, Benin"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "78 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/botswana/gaborone/": {
+        "url": "/locations/africa/botswana/gaborone/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/botswana/gaborone/",
+        "redirect_count": 0,
+        "response_time": 0.008,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:38",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Gaborone, Botswana",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Gaborone by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/botswana/gaborone/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Gaborone, Botswana"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/burkina-faso/ouagadougou/": {
+        "url": "/locations/africa/burkina-faso/ouagadougou/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/burkina-faso/ouagadougou/",
+        "redirect_count": 0,
+        "response_time": 0.006,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "89 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:38",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Ouagadougou, Burkina Faso",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Ouagadougou by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/burkina-faso/ouagadougou/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Ouagadougou, Burkina Faso"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "89 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    },
+    "/locations/africa/burundi/bujumbura/": {
+        "url": "/locations/africa/burundi/bujumbura/",
+        "type": "location",
+        "http_status": 200,
+        "final_url": "http://localhost/BET/locations/africa/burundi/bujumbura/",
+        "redirect_count": 0,
+        "response_time": 0.022,
+        "issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords."
+            }
+        ],
+        "severity_counts": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "audited_at": "2026-08-31 12:10:38",
+        "title": "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Bujumbura, Burundi",
+        "meta_description": "Precision vacuum leak testing, degassing chambers, and weld inspection systems \u2014 serving the industrial needs of Bujumbura by Burhani Engineering Technology.",
+        "canonical": "http://localhost/BET/locations/africa/burundi/bujumbura/",
+        "h1": [
+            "Manufacturer, Supplier, Exporter of Vacuum Testing Equipment in Bujumbura, Burundi"
+        ],
+        "noindex": false,
+        "compared_issues": [
+            {
+                "type": "long_title",
+                "code": "long_title",
+                "severity": "medium",
+                "message": "Title is longer than 70 characters.",
+                "detected": "82 chars",
+                "expected": "< 70 chars",
+                "explanation": "Long titles are truncated in Google search results, hurting CTR.",
+                "recommendation": "Shorten the title to be concise and front-load important keywords.",
+                "status": "NEW"
+            }
+        ]
+    }
+}

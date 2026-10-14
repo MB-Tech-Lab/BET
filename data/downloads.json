@@ -1,0 +1,12 @@
+[
+    {
+        "id": "6a59c703df47a",
+        "product": "BET Vacuum Leak Analyzer",
+        "version": "1.8.5",
+        "release_notes": "\ud83d\ude80 Release Highlights\r\n\r\nImproved application stability and performance.\r\nFixed PDF report generation and template resolution issues.\r\nEnhanced Report Approval Workflow persistence.\r\nUpdated Role-Based Access Control (RBAC) for Admin, Manager, and Operator accounts.\r\nImproved enterprise deployment with ProgramData support.\r\nRefined logging, backup, and runtime path management.\r\nEnhanced PLC communication reliability (Modbus RTU & Modbus TCP support).\r\nVarious bug fixes and production readiness improvements.\r\nThis release focuses on stability, reliability, and enterprise deployment readiness for production environments.",
+        "status": "Latest Release",
+        "uploaded_date": "2026-07-17",
+        "windows_file": "1784268543_6a59c6ff132c3_BET_Vacuum_Leak_Analyzer_Setup.exe",
+        "windows_size": 59032259
+    }
+]

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: bet-website
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    healthCheckPath: /robots.txt
+    envVars:
+      - key: BET_ADMIN_USERNAME
+        sync: false
+      - key: BET_ADMIN_PASSWORD_HASH
+        sync: false
+      - key: BET_ADMIN_DISPLAY_NAME
+        sync: false
+      - key: BET_ADMIN_ROLE
+        sync: false
+      - key: PRODUCTION_URL
+        sync: false

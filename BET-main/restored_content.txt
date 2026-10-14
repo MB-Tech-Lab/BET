@@ -1,0 +1,429 @@
+<?php
+include_once(__DIR__ . '/../../includes/config.php');
+
+$location_name = "Global";
+
+if (!empty($is_location_page) && $is_location_page && !empty($continent) && !empty($country) && !empty($city)) {
+    $meta_title = "Stainless Steel Vacuum Glove Box 2 Port in $city, $country | Burhani Engineering Technology";
+    $meta_description = "Explore the Stainless Steel Vacuum Glove Box 2 Port available in $city, $country from Burhani Engineering Technology. High-performance vacuum glove box systems with metal body.";
+    $canonical_url = product_url('vacuum-glove-box/product-category/vacuum-gbmb/two-port-glove-box');
+} else {
+    $meta_title = "Stainless Steel Vacuum Glove Box 2 Port | Burhani Engineering Technology";
+    $meta_description = "Explore the Stainless Steel Vacuum Glove Box 2 Port for vacuum, inert-gas and controlled-atmosphere laboratory and industrial applications. Custom configurations available.";
+    $canonical_url = product_url('vacuum-glove-box/product-category/vacuum-gbmb/two-port-glove-box');
+}
+
+include_once(__DIR__ . '/../../includes/header.php');
+?>
+
+<link rel="stylesheet" href="<?php echo asset('css/products.css'); ?>">
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "<?php echo url(''); ?>"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Products",
+      "item": "<?php echo product_url('vacuum_glove_box'); ?>"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vacuum Glove Box - Metal Body",
+      "item": "<?php echo product_category_url('vacuum_glove_box', 'Vacuum_GBMB'); ?>"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Stainless Steel Vacuum Glove Box 2 Port",
+      "item": "<?php echo $canonical_url; ?>"
+    }
+  ]
+}
+</script>
+
+<main class="main">
+
+  <!-- Hero Section -->
+  <div class="page-title" data-aos="fade">
+    <div class="heading">
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-8">
+            <h1>Stainless Steel Vacuum Glove Box 2 Port</h1>
+            <p class="mb-4">Reliable Controlled-Environment Handling for Laboratory and Industrial Applications</p>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="#contact" class="btn btn-primary d-flex align-items-center gap-2">
+                <i class="bi bi-chat-dots"></i> Request a Quote
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <section class="section">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Main Content -->
+        <div class="col-lg-8" data-aos="fade-up">
+          <div class="content">
+            
+            <div class="mb-5">
+              <h2>What is a Stainless Steel Vacuum Glove Box 2 Port?</h2>
+              <p>The Stainless Steel Vacuum Glove Box 2 Port manufactured by Burhani Engineering Technology is a professionally engineered enclosed workstation for handling sensitive materials under vacuum, inert gas or other controlled-atmosphere conditions. It enables an operator to work inside an isolated chamber through two integrated glove ports without directly exposing the process or material to the surrounding environment.</p>
+              <p>Manufactured with a strong stainless steel body, the glove box offers excellent structural stability, corrosion resistance and long-term durability. Its spacious internal working area and transparent viewing panel provide clear visibility while carrying out sample preparation, testing, assembly, research and material-handling operations.</p>
+              <p>This two-port glove box is suitable for laboratories, research institutions, pharmaceutical facilities, battery development units, electronics industries and specialized manufacturing environments. Each system can be configured according to the customer's required chamber dimensions, operating conditions, process gas, vacuum level and accessories.</p>
+            </div>
+
+            <!-- Product Gallery -->
+            <div class="product-gallery mb-5">
+              <div class="main-image mb-3">
+                <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 2.png'); ?>" class="d-block main-image-link glightbox" data-gallery="two-port-glove-box-gallery">
+                  <div class="bg-light rounded shadow-sm overflow-hidden text-center p-4">
+                    <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 2.png'); ?>" loading="lazy" alt="Stainless Steel Vacuum Glove Box 2 Port" class="img-fluid" style="max-height: 400px; width: auto; object-fit: contain;">
+                  </div>
+                </a>
+              </div>
+              <div class="row g-2 thumbnail-gallery">
+                <div class="col-3 col-md-2">
+                  <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box Main pic 1.png'); ?>" class="glightbox d-block" data-gallery="two-port-glove-box-gallery">
+                    <div class="ratio ratio-1x1 bg-light rounded shadow-sm overflow-hidden">
+                      <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box Main pic 1.png'); ?>" loading="lazy" alt="Gallery Image 1" class="w-100 h-100 p-2" style="object-fit: contain;">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 col-md-2">
+                  <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 3.png'); ?>" class="glightbox d-block" data-gallery="two-port-glove-box-gallery">
+                    <div class="ratio ratio-1x1 bg-light rounded shadow-sm overflow-hidden">
+                      <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 3.png'); ?>" loading="lazy" alt="Gallery Image 3" class="w-100 h-100 p-2" style="object-fit: contain;">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 col-md-2">
+                  <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 4.png'); ?>" class="glightbox d-block" data-gallery="two-port-glove-box-gallery">
+                    <div class="ratio ratio-1x1 bg-light rounded shadow-sm overflow-hidden">
+                      <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 4.png'); ?>" loading="lazy" alt="Gallery Image 4" class="w-100 h-100 p-2" style="object-fit: contain;">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 col-md-2">
+                  <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 5.png'); ?>" class="glightbox d-block" data-gallery="two-port-glove-box-gallery">
+                    <div class="ratio ratio-1x1 bg-light rounded shadow-sm overflow-hidden">
+                      <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 5.png'); ?>" loading="lazy" alt="Gallery Image 5" class="w-100 h-100 p-2" style="object-fit: contain;">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-3 col-md-2">
+                  <a href="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 6.png'); ?>" class="glightbox d-block" data-gallery="two-port-glove-box-gallery">
+                    <div class="ratio ratio-1x1 bg-light rounded shadow-sm overflow-hidden">
+                      <img src="<?php echo asset('img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 6.png'); ?>" loading="lazy" alt="Gallery Image 6" class="w-100 h-100 p-2" style="object-fit: contain;">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <h3>Designed for Controlled and Sensitive Processes</h3>
+              <p>Many laboratory and industrial materials can be affected by oxygen, humidity, dust or direct contact with the surrounding atmosphere. The 2 Port Stainless Steel Vacuum Glove Box creates an enclosed workspace in which these environmental conditions can be reduced or controlled.</p>
+              <p>The two ergonomically positioned glove ports allow a single operator to comfortably handle samples, tools and components inside the chamber. Depending on the selected configuration, the chamber may be connected to a suitable vacuum pump or supplied with an inert gas such as nitrogen or argon.</p>
+              <p>This controlled arrangement supports improved process consistency, cleaner material handling and better protection for atmosphere-sensitive samples.</p>
+            </div>
+
+            <h3 class="mt-5">Key Features</h3>
+            <ul class="row list-unstyled gy-3 mt-2 mb-4">
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Durable stainless steel chamber construction</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Two glove ports for convenient single-operator use</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Large transparent panel for clear internal visibility</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Secure sealing arrangement for controlled operation</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Suitable for vacuum and inert-atmosphere applications</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Smooth internal surfaces for easier cleaning</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Robust structure for laboratory and industrial use</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Provision for vacuum pump and pressure instrumentation</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Inlet and outlet connections for gas purging</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Convenient access for loading samples and equipment</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Customizable chamber dimensions and port locations</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Optional material-transfer chamber or airlock</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Application-specific valves, gauges and accessories</span>
+              </li>
+              <li class="col-md-6 d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-primary mt-1"></i> 
+                <span>Designed and manufactured in Chennai, India</span>
+              </li>
+            </ul>
+            <p class="text-muted small"><em>* The final construction material, chamber thickness, sealing arrangement and operating range are selected according to the intended application.</em></p>
+
+            <div class="mb-5 mt-5">
+              <h3>How Does a Two-Port Vacuum Glove Box Work?</h3>
+              <p>The required samples, components or tools are placed inside the enclosed working chamber. The chamber is then sealed and connected to the appropriate vacuum or gas-control system.</p>
+              <p>For vacuum applications, a compatible pump removes air from the chamber until the required operating condition is achieved. For controlled-atmosphere applications, the chamber may be purged with nitrogen, argon or another suitable process gas. The operator then handles the internal materials through the attached gloves while observing the process through the transparent viewing panel.</p>
+              <p>The achievable vacuum level and atmospheric purity depend on the chamber design, sealing system, pump selection, gas arrangement and process requirements.</p>
+            </div>
+
+            <div class="mb-5">
+              <h3>Stainless Steel Construction</h3>
+              <p>The stainless steel enclosure provides high mechanical strength and excellent resistance to corrosion. Its smooth, cleanable surfaces make the chamber suitable for applications where cleanliness and dependable operation are important.</p>
+              <p>Different stainless steel grades and surface finishes may be offered based on the customer's process, environmental and maintenance requirements. A suitable transparent viewing panel can also be selected to provide clear observation while maintaining chamber integrity.</p>
+            </div>
+
+            <div class="mb-5">
+              <h3>Customization and Optional Accessories</h3>
+              <p>Burhani Engineering Technology can configure the glove box according to specific requirements. Customers should confirm the compatibility of the chamber, gloves, seals and accessories with the chemicals, gases and materials involved in their process.</p>
+            </div>
+
+            <h3 class="mt-5">Applications</h3>
+            <div class="row g-3 mt-2 mb-4">
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Laboratory research and development
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Pharmaceutical and chemical processing
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Lithium-ion battery material handling
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Electronics and semiconductor component assembly
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Moisture-sensitive sample preparation
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Powder handling and controlled mixing
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Material science and nanotechnology research
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Inert gas experiments and testing
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Vacuum-based research applications
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Specialized industrial assembly
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Educational and institutional laboratories
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light">
+                  <i class="bi bi-arrow-right-short text-primary"></i> Controlled packaging and inspection processes
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product Categories Sidebar -->
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="sidebar-box p-4 bg-white rounded shadow-sm border-top border-4 border-primary" style="background: #fff; border-top: 4px solid var(--accent-color) !important;">
+            <h4 class="mb-4" style="color: var(--heading-color); font-weight: 700;">Product Categories</h4>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_category_url('vacuum_glove_box', 'Vacuum_GBMB'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span class="fw-bold"><i class="bi bi-arrow-return-left me-2"></i> Metal Body Glove Box (Parent)</span>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/two-port-glove-box'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link-active">
+                  <span>2 Port Glovebox</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/three-port-glove-box'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>3 Port Glovebox</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>4 Port Glovebox</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box-modular'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>4 Port Modular</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/four-port-glove-box-two-sided'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>4 Port (2 Side)</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/six-port-glove-box-two-sided'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>6 Port Glovebox</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-0">
+                <a href="<?php echo product_url('vacuum-glove-box/product-category/vacuum-gbmb/eight-port-glove-box-two-sided'); ?>" class="d-flex justify-content-between align-items-center text-dark text-decoration-none category-link">
+                  <span>8 Port Glovebox</span>
+                  <i class="bi bi-chevron-right text-primary"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="bg-white p-5 rounded text-center shadow-sm border-top border-4 border-primary" data-aos="zoom-in">
+        <h3>Require a Stainless Steel Vacuum Glove Box 2 Port?</h3>
+        <p class="mb-4">Contact us today to discuss your glove box requirements and get a custom quote.</p>
+        <a href="#contact" class="btn btn-primary d-inline-flex align-items-center gap-2">
+          <i class="bi bi-envelope"></i> Contact Our Sales Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<style>
+    .page-title .heading {
+        background: linear-gradient(rgba(11, 37, 69, 0.8), rgba(19, 64, 116, 0.8)), url('<?php echo asset("img/Glove Box/Vacuum Glove Box – Metal Body/Two Port Glove Box Main/Two Port Glove Box pic 2.png"); ?>') no-repeat center center / cover;
+        padding: 80px 0;
+        color: #fff;
+    }
+    .page-title h1 {
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .page-title p {
+        font-size: 1.25rem;
+        opacity: 0.9;
+    }
+    .sidebar-box {
+        position: sticky;
+        top: 100px;
+        z-index: 10;
+    }
+    .category-link {
+        transition: all 0.3s ease;
+        font-weight: 500;
+        display: block;
+    }
+    .category-link:hover {
+        color: var(--accent-color) !important;
+        padding-left: 5px;
+    }
+    .category-link i {
+        font-size: 0.8rem;
+    }
+    .category-link-active {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0;
+        color: var(--accent-color) !important;
+        font-weight: bold;
+    }
+    .category-link-active i {
+        font-size: 1.2rem;
+        color: var(--accent-color) !important;
+    }
+    .glightbox {
+        cursor: zoom-in;
+        display: block;
+    }
+    .glightbox img {
+        transition: transform 0.3s ease;
+    }
+    .glightbox:hover img {
+        transform: scale(1.02);
+    }
+    @media (max-width: 991px) {
+        .sidebar-box {
+            position: static;
+            margin-top: 20px;
+        }
+    }
+</style>
+
+<?php require_once __DIR__ . '/../../includes/footer.php'; ?>
+
