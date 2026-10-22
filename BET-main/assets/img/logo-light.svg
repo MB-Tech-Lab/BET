@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="220" viewBox="0 0 900 220" width="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M85 15L150 52 150 128 85 165 20 128 20 52z" fill="none" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="10"/>
-  <path d="M42 58 L85 33 L128 58" fill="none" stroke="#18C2D9" stroke-linecap="round" stroke-width="7"/>
-  <path d="M42 122 L85 147 L128 122" fill="none" stroke="#18C2D9" stroke-linecap="round" stroke-width="7"/>
-  <text fill="#FFFFFF" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="58" font-weight="700" text-anchor="middle" x="85" y="112">B</text>
-  <text fill="#FFFFFF" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="34" font-weight="700" x="190" y="88">Burhani Engineering Technology</text>
-  <text fill="#18C2D9" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="42" font-weight="700" x="190" y="142">Pressure and Vacuum</text>
-</svg>
