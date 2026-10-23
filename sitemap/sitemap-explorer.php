@@ -9,12 +9,11 @@
 
 require_once dirname(__DIR__) . '/includes/config.php';
 
-// ── Domain auto-detection (kept from the previous version) ──────────────────────────────────
-$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-$host = $_SERVER['HTTP_HOST'];
-$base_dir = dirname($_SERVER['SCRIPT_NAME']);
-if ($base_dir === '\\' || $base_dir === '/') $base_dir = '';
-$current_base_url = rtrim($protocol . '://' . $host . $base_dir, '/');
+// ── Domain / Base URL detection ─────────────────────────────────────────────────────────────
+// Always use the project's canonical BASE_URL (configured in includes/config.php).
+// Deriving base_dir from $_SERVER['SCRIPT_NAME'] when this file sits at sitemap/sitemap-explorer.php
+// mistakenly treats '/sitemap' as the website's base path, prepending '/sitemap/' to every page URL!
+$current_base_url = rtrim(defined('BASE_URL') ? BASE_URL : ($protocol . '://' . $host . $base_dir), '/');
 
 // ── Load manifest (server-side only; never shipped to the browser in full) ──────────────────
 $manifest_file = dirname(__DIR__) . '/data/sitemap_manifest.json';
@@ -100,8 +99,9 @@ function strip_url_prefix(string $q, string $base_url): string {
 /** Rewrites a manifest-relative URL (e.g. "/products/vacuum-glove-box/") to a full domain URL. */
 function full_url(string $rel, string $base): string {
     if ($rel === '/') return $base . '/';
+    $has_trailing_slash = (substr($rel, -1) === '/');
     $encoded = implode('/', array_map('rawurlencode', explode('/', trim($rel, '/'))));
-    return $base . '/' . $encoded;
+    return $base . '/' . $encoded . ($has_trailing_slash ? '/' : '');
 }
 
 /**
