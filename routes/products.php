@@ -16,7 +16,7 @@ function handle_products(array $segments, string $path): bool {
     // 1. Direct match with case-insensitivity
     $file_path = resolve_path_case_insensitive(ABSPATH, $clean_path . '.php');
     if ($file_path && file_exists($file_path)) {
-        require_once $file_path;
+        require $file_path;
         return true;
     }
 
@@ -41,10 +41,23 @@ function handle_products(array $segments, string $path): bool {
             if ($norm_key === $norm_slug || $norm_url_slug === $norm_slug) {
                 $catalog_file = ABSPATH . ($prod['internal_url'] ?? '');
                 if (($prod['internal_url'] ?? '') !== '' && file_exists($catalog_file)) {
-                    require_once $catalog_file;
+                    require $catalog_file;
                     return true;
                 }
                 break;
+            }
+
+            // Also check standalone_pages if accessed as products/{standalone_slug}
+            foreach ($prod['standalone_pages'] ?? [] as $sa_slug => $sa_label) {
+                if (strtolower(str_replace(['_', ' '], '-', $sa_slug)) === $norm_slug) {
+                    $prod_dir = dirname($prod['internal_url'] ?? '');
+                    $sa_file = resolve_path_case_insensitive(ABSPATH, $prod_dir . '/' . $sa_slug . '.php');
+                    if ($sa_file && file_exists($sa_file)) {
+                        require $sa_file;
+                        return true;
+                    }
+                    break 2;
+                }
             }
         }
 
@@ -55,7 +68,7 @@ function handle_products(array $segments, string $path): bool {
             // Try segment-based file name
             $possible_file = $resolved_dir . DIRECTORY_SEPARATOR . $dir_basename . '.php';
             if (file_exists($possible_file)) {
-                require_once $possible_file;
+                require $possible_file;
                 return true;
             }
 
@@ -63,7 +76,7 @@ function handle_products(array $segments, string $path): bool {
             if (stripos($dir_basename, 'ATS_Pressure_Aging_Vessel') !== false) {
                 $special_file = $resolved_dir . DIRECTORY_SEPARATOR . 'ATS_Pressure_Aging_Vessel.php';
                 if (file_exists($special_file)) {
-                    require_once $special_file;
+                    require $special_file;
                     return true;
                 }
             }
@@ -71,8 +84,36 @@ function handle_products(array $segments, string $path): bool {
             // Fallback: search for any .php file in the product folder excluding product-category
             $files = glob($resolved_dir . DIRECTORY_SEPARATOR . '*.php');
             if (!empty($files)) {
-                require_once $files[0];
+                require $files[0];
                 return true;
+            }
+        }
+    }
+
+    // 3. Three-segment URL matches (e.g. products/{parent_slug}/{standalone_slug})
+    if (count($segments) === 3) {
+        static $catalog = null;
+        if ($catalog === null) {
+            require_once ABSPATH . 'includes/product-catalog.php';
+            $catalog = get_product_catalog();
+        }
+        $parent_slug = strtolower(str_replace(['_', ' '], '-', $segments[1]));
+        $standalone_slug = strtolower(str_replace(['_', ' '], '-', $segments[2]));
+
+        foreach ($catalog as $key => $prod) {
+            $norm_key = strtolower(str_replace(['_', ' '], '-', $key));
+            $norm_url_slug = strtolower(str_replace(['_', ' '], '-', $prod['url_slug'] ?? ''));
+            if ($norm_key === $parent_slug || $norm_url_slug === $parent_slug) {
+                foreach ($prod['standalone_pages'] ?? [] as $sa_slug => $sa_label) {
+                    if (strtolower(str_replace(['_', ' '], '-', $sa_slug)) === $standalone_slug) {
+                        $prod_dir = dirname($prod['internal_url'] ?? '');
+                        $sa_file = resolve_path_case_insensitive(ABSPATH, $prod_dir . '/' . $sa_slug . '.php');
+                        if ($sa_file && file_exists($sa_file)) {
+                            require $sa_file;
+                            return true;
+                        }
+                    }
+                }
             }
         }
     }

@@ -212,10 +212,7 @@ include_once(__DIR__ . '/../../includes/header.php');
   </section>
 
 
-
-  <!-- 
-
-</main>
+  </main>
 
 <style>
     .seo-product-link {
